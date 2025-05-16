@@ -46,3 +46,29 @@ The confusion matrix shows excellent classification performance:
 - Training epochs: 30 with early stopping
 
 ## Project Structure
+terrain_classification/
+├── data/
+│   └── Different-Terrain-Types/
+├── models/
+│   └── saved_models/
+├── utils/
+│   ├── data_utils.py
+│   └── visualization.py
+├── config.py
+├── train.py
+└── evaluate.py
+
+## Usage
+
+### Setup
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install torch torchvision scikit-learn matplotlib seaborn numpy tqdm pillow
+
+Download the dataset from Kaggle
+
+### Training and Evaluation
+```bash
+  python train.py
+  python evaluate.py
