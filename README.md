@@ -46,6 +46,7 @@ The confusion matrix shows excellent classification performance:
 - Training epochs: 30 with early stopping
 
 ## Project Structure
+<pre>
 terrain_classification/
 ├── data/
 │   └── Different-Terrain-Types/
@@ -57,6 +58,7 @@ terrain_classification/
 ├── config.py
 ├── train.py
 └── evaluate.py
+</pre>
 
 ## Usage
 
